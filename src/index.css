@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neo-bg: #FFF4E0;
+  --color-neo-pink: #FF6B6B;
+  --color-neo-cyan: #4ECDC4;
+  --color-neo-yellow: #FFE66D;
+  --color-neo-blue: #1A535C;
+  --color-neo-black: #111111;
+  --font-sans: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+body {
+  background-color: var(--color-neo-bg);
+  color: var(--color-neo-black);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.neo-shadow {
+  box-shadow: 4px 4px 0px 0px #111111;
+}
+
+.neo-shadow-lg {
+  box-shadow: 8px 8px 0px 0px #111111;
+}
+
+.neo-border {
+  border: 3px solid #111111;
+}
+
+.neo-radius {
+  border-radius: 12px;
+}
+
+.markdown-body {
+  color: #111111;
+  line-height: 1.75;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+}
+
+.markdown-body code {
+  background-color: #FFE66D;
+  padding: 0 4px;
+  border-radius: 4px;
+  border: 2px solid #111111;
+  color: #111111;
+  font-family: var(--font-mono);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
