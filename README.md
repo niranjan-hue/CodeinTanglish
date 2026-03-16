@@ -152,6 +152,6 @@ Together we can make <strong>coding easier for Tamil beginners</strong>.
 
 <p>
 <strong>Project:</strong> CodeinTanglish <br>
-<strong>Purpose:</strong> Teach coding to Tamil beginners using Tanglish
-  <strong>Gmail:</strong>amuthanabishekniranjan@gmail.com
+<strong>Purpose:</strong> Teach coding to Tamil beginners using Tanglish <br>
+<strong>Gmail:</strong>amuthanabishekniranjan@gmail.com
 </p>
