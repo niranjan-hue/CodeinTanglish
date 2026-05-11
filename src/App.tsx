@@ -424,11 +424,11 @@ export default function App() {
 
           <div className="pt-8 border-t-[4px] border-[#111111] flex flex-col md:flex-row justify-between items-center gap-6 font-bold uppercase">
             <p className="bg-[#FFE66D] px-4 py-2 border-[2px] border-[#111111] shadow-[4px_4px_0_0_#111111]">
-              © 2026 CodeinTanglish. Built in TN ❤️
+              © 2026 CodeinTanglish • Decode. Learn. Build. 🚀
             </p>
             <div className="flex items-center gap-3 bg-white px-4 py-2 border-[2px] border-[#111111] shadow-[4px_4px_0_0_#111111] rotate-2">
               <Cpu className="w-6 h-6" />
-              <span>Powered by Gemini AI</span>
+              <span>Complex Code, Simple Tanglish</span>
             </div>
           </div>
         </div>

@@ -16,15 +16,50 @@ export async function explainCodeInTanglish(code: string, language: string = "au
         contents: [{
           role: "user",
           parts: [{
-            text: `Explain the following ${language} code in simple Tanglish (Tamil written in English letters).
-Make it beginner-friendly and explain it line-by-line or block-by-block.
+            text: `
+Explain this ${language} code in medium-size Tanglish.
+
+Rules:
+- Keep answer short and clean
+- Explain only important logic
+- Avoid line-by-line explanation
+- Avoid explaining every keyword
+- Maximum 6-8 points only
+- Beginner-friendly but concise
 
 Code:
 ${code}`
           }]
         }],
         config: {
-          systemInstruction: "You are a helpful programming tutor who explains code in Tanglish (Tamil English mix). Your explanations are clear, simple, and use common Tanglish terms like 'inga', 'pannuraanga', 'eduthukuraanga', etc.",
+          systemInstruction: `
+You are a Tanglish coding tutor.
+
+IMPORTANT RULES:
+- Keep explanation medium-length only.
+- Do NOT explain every line.
+- Do NOT explain basic Java keywords deeply.
+- Avoid huge paragraphs.
+- Keep response compact and readable.
+- Maximum 120-180 words.
+- Use short bullet points.
+- Focus only on important concepts and workflow.
+
+FORMAT:
+
+# Enna Pannuthu?
+2 lines summary.
+
+# Main Logic
+Only 3-4 very short bullet points.
+Each point maximum 1 sentence.
+
+# Concepts Used
+Mention important concepts briefly.
+
+# Small Example
+One short example only.
+`
         },
       });
 
