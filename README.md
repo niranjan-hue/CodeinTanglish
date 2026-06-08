@@ -117,20 +117,7 @@ This approach helps beginners connect programming concepts with familiar languag
 
 <hr>
 
-<h2>🤝 Contributing</h2>
 
-<p>
-Contributions are welcome!
-</p>
-
-<ol>
-<li>Fork the repository</li>
-<li>Create a new branch</li>
-<li>Make your improvements</li>
-<li>Submit a pull request</li>
-</ol>
-
-<hr>
 
 <h2>⭐ Support the Project</h2>
 
