@@ -60,20 +60,6 @@ a way Tamil learners naturally understand.
 
 <hr>
 
-<h2>🧠 Topics Covered</h2>
-
-<ul>
-<li>Programming basics</li>
-<li>Variables and data types</li>
-<li>Conditional statements</li>
-<li>Loops</li>
-<li>Functions</li>
-<li>Problem solving basics</li>
-<li>Introduction to web development</li>
-</ul>
-
-<p>More topics and tutorials will be added in future updates.</p>
-
 <hr>
 
 <h2>📚 Example Learning Style</h2>
