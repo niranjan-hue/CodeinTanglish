@@ -60,8 +60,6 @@ a way Tamil learners naturally understand.
 
 <hr>
 
-<hr>
-
 <h2>📚 Example Learning Style</h2>
 
 <pre>
